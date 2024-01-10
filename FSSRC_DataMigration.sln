@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSSRC_DataMigration", "FSSRC_DataMigration.csproj", "{D767DDB1-1DBB-4E9F-A909-E1882BDBEF41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D767DDB1-1DBB-4E9F-A909-E1882BDBEF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D767DDB1-1DBB-4E9F-A909-E1882BDBEF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D767DDB1-1DBB-4E9F-A909-E1882BDBEF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D767DDB1-1DBB-4E9F-A909-E1882BDBEF41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27D67D5-FD7D-46B7-B14F-2ADC7F83CD52}
+	EndGlobalSection
+EndGlobal
