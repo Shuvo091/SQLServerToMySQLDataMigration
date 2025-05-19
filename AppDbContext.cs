@@ -41,7 +41,7 @@ namespace FSSRC_DataMigration
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var serverVersion = new MySqlServerVersion("8.0.26");
-            optionsBuilder.UseMySql("Server=localhost;Database=FSSRC;user=root;password=Itachi007!;default command timeout=600", serverVersion);
+            optionsBuilder.UseMySql("CONNECTIONSTRING1", serverVersion);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -61,7 +61,7 @@ namespace FSSRC_DataMigration
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=SeniorResourceCenter_Final;Trusted_Connection=True;Encrypt = Optional;",
+            optionsBuilder.UseSqlServer(@"CONNECTIONSTRING2",
                  sqlServerOptions => sqlServerOptions.CommandTimeout(600));
             //optionsBuilder.UseSqlServer(@"Persist Security Info=False;User ID=sa;Initial Catalog=SeniorResourceCenter_Original;Data Source=localhost;Encrypt = Optional;");
         }
