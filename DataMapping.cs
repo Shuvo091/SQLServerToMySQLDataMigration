@@ -9,7 +9,7 @@ namespace FSSRC_DataMigration
 {
     public static class DataMapping
     {
-        const string passwordHash = "AQAAAAEAACcQAAAAEPNpUt6IOgnu2TSrtLgrPDdsgR61PR6i746OgoTdeOxiaAH5FWi7hwE8X4B/l9o0hQ=="; //Fssrc2023!
+        const string passwordHash = "PLACEHOLDERHASH";
         public static void Map<T>(string fileName, int counter) where T : class
         {
             var path = Path.Combine(AppContext.BaseDirectory, "SourceDataQuery", fileName);
