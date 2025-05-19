@@ -5,7 +5,7 @@ namespace FSSRC_DataMigration
 {
     public class CryptographyService
     {
-        private static string key = "IAMGROOTFROMBDENOSISWHITEOAKROOT";
+        private static string key = "PLACEHOLDERKEY";
         public static string EncryptString(string plainText)
         {
             byte[] iv = new byte[16];
