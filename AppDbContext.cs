@@ -63,7 +63,6 @@ namespace FSSRC_DataMigration
         {
             optionsBuilder.UseSqlServer(@"CONNECTIONSTRING2",
                  sqlServerOptions => sqlServerOptions.CommandTimeout(600));
-            //optionsBuilder.UseSqlServer(@"Persist Security Info=False;User ID=sa;Initial Catalog=SeniorResourceCenter_Original;Data Source=localhost;Encrypt = Optional;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
